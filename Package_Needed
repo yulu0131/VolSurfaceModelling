@@ -1,5 +1,6 @@
 需要安装
 pandas
 numpy
-os
 scipy
+matplotlib
+openpyxl

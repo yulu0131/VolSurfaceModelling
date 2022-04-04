@@ -43,7 +43,29 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.商品期货期权波动率曲面">
+    <configuration name="商品期货期权波动率曲面" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VolSurfaceModelling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VolSurfaceModelling/daily_work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VolSurfaceModelling/daily_work/商品期货期权波动率曲面.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="china_holidays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="VolSurfaceModelling" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.商品期货期权波动率曲面" />
         <item itemvalue="Python.china_holidays" />
       </list>
     </recent_temporary>
@@ -83,6 +106,10 @@
       <workItem from="1648738352733" duration="1113000" />
       <workItem from="1648739563551" duration="718000" />
       <workItem from="1648740307843" duration="3946000" />
+      <workItem from="1648744600187" duration="44000" />
+      <workItem from="1648802385926" duration="289000" />
+      <workItem from="1648982339230" duration="44000" />
+      <workItem from="1649086791294" duration="1641000" />
     </task>
     <servers />
   </component>
@@ -91,5 +118,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/VolSurfaceModelling$china_holidays.coverage" NAME="china_holidays 覆盖结果" MODIFIED="1648739235751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VolSurfaceModelling/trading_calendar" />
+    <SUITE FILE_PATH="coverage/VolSurfaceModelling$.coverage" NAME="商品期货期权波动率曲面 Coverage Results" MODIFIED="1648802622004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VolSurfaceModelling/daily_work" />
   </component>
 </project>
