@@ -1,6 +1,7 @@
 from setuptools import setup, find_packages
 
 install_requires = ["pandas>=1.4.1",
+                    "numpy>=1.22.3",
                     "matplotlib>=3.5.1",
                     "openpyxl>=3.0.9",
                     "scipy>=1.8.0"]

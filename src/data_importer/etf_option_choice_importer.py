@@ -24,7 +24,7 @@ def option_data_preparation(option_df):
         else:
             month_code = (date.today().year % 100 + 1) * 100 + month_code_part2
         strike = int(re.findall(pattern, i)[2])
-        pattern = r'\D\d\D\d+'
+        pattern = r'\D\d+\D\d+'
         underlying_code = re.split(pattern, i)[0]
         if underlying_code == '50ETF':
             underlying_code = '510050.SH'

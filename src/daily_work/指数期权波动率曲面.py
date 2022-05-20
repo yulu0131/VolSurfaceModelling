@@ -9,10 +9,10 @@ from src.risk_free_rate.cubic_spline_curve import get_risk_free_rate
 import os
 # 目前仅适用于沪深300指数期权
 
-valuation_date = datetime.date(2022, 3, 25)
+valuation_date = datetime.date(2022, 5, 19)
 underlying_code = '000300.SH'
 option_type_series = ['C', 'P']
-spot = 4174.57
+spot = 3999.60
 
 option_df = pd.read_csv('D:/Market Data/' + str(valuation_date) + '/沪深300OptionData.csv', encoding='Chinese')
 data = option_data_preparation(valuation_date, spot, option_df)

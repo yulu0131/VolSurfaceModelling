@@ -9,8 +9,8 @@ from src.market_data.market_implied_vols import MarketImpliedVols
 from src.risk_free_rate.cubic_spline_curve import get_risk_free_rate
 import os
 
-valuation_date = datetime.date(2022, 4, 1)
-# commodity_code_series = ['sc']
+valuation_date = datetime.date(2022, 5, 19)
+# commodity_code_series = ['V']
 commodity_code_series = ['AL', 'AU', 'C', 'CF', 'CU', 'I', 'L', 'M', 'MA', 'P', 'PG', 'PP', 'RM', 'RU', 'sc', 'SR',
                          'TA', 'V', 'ZC', 'ZN']
 option_type_series = ['C', 'P']
