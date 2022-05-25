@@ -9,7 +9,7 @@ from src.risk_free_rate.cubic_spline_curve import get_risk_free_rate
 import os
 # 目前适用上证50ETF，510300.SH沪深300ETF，159919.SZ沪深300ETF期权
 
-valuation_date = datetime.date(2022, 5, 19)
+valuation_date = datetime.date(2022, 5, 25)
 underlying_code_series = ['510050.SH', '510300.SH', '159919.SZ']
 option_type_series = ['C', 'P']
 
