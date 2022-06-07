@@ -7,12 +7,14 @@ import src.data_exporter.data_exporter as data_exporter
 from src.market_data.market_implied_vols import MarketImpliedVols
 from src.risk_free_rate.cubic_spline_curve import get_risk_free_rate
 import os
+import akshare as ak
 # 目前仅适用于沪深300指数期权
 
-valuation_date = datetime.date(2022, 5, 31)
+valuation_date = datetime.datetime.now().date()
 underlying_code = '000300.SH'
 option_type_series = ['C', 'P']
-spot = 4091.52
+date_string = valuation_date.strftime('%Y%m%d')
+spot = ak.index_zh_a_hist(symbol="000300", period="daily", start_date=date_string)[['收盘']].values[0][0] # need to change later, close price
 
 option_df = pd.read_csv('D:/Market Data/' + str(valuation_date) + '/沪深300OptionData.csv', encoding='Chinese')
 data = option_data_preparation(valuation_date, spot, option_df)
